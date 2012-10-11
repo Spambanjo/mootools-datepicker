@@ -109,7 +109,7 @@ All the options of the Picker and Picker.Attach classes, and:
 - timePicker: (*boolean*, defaults to 1 `false`) Enable/disable timepicker functionality. Hours/Minutes values can be changed using the scrollwheel.
 - timeWheelStep: (*number*, defaults to `1`) The number of minutes the minutes field will change in the timepicker when using the scrollwheel, for example 5, 10, 15. The value will always be k * timeWheelStep.
 - yearPicker: (*boolean*, defaults to `true`) Enable/disable yearpicker functionality. Makes it much easier to change years.
-- yearPerPage: (*number*, defaults to `20`) Amount of years to show in the year-picking view. Be aware that this may affect your layout.
+- yearsPerPage: (*number*, defaults to `20`) Amount of years to show in the year-picking view. Be aware that this may affect your layout.
 - startView: (*string*, defaults to `days`) The view that will be showed when the picker opens. The options are `time`, `days`, `months` and `years`
 - openLastView: (*boolean*, defaults to `false`) Opens the last opened view after the picker is opened again, instead of the `startView`
 - pickOnly: (*string*, defaults to `false`) If you just want to pick a year, month, day or time. The options are `time`, `days`, `months` and `years`
